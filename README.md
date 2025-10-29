@@ -6,13 +6,20 @@ Current Features/Plugins
 - Lazy-nvim => package manager for plugins
 - nvim-treesitter => syntax highlighting, indentation, and folds which are 
   compatible with telescope fuzzy finder
+    - installed-parsers
+        - c
+        - c++
+        - rust
+        - lua
+        - ocaml (for a class)
+        - python 
 - Telescope => fuzzy finder to easily find files by pressing <space f f>
     - shows syntax highlighing with treesitter fix branch
     - added background and border colors to ui
 - Color scheme => Use kanagawa default scheme
     - this relies on my terminal background color settings
       to look how i want it which I will add a screenshot later
-- Lualine => simple more informative status bar that shows mode, branch, diff
+- Lualine => simple more informative status bar that shows mode, branch, diff,
              filename, extension, percent through the file, and location (height, width)
 - Misc opts/binds =>
     - <space c d> for returning to file explorer
