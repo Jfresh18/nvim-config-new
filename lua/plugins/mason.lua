@@ -14,7 +14,7 @@ return {
   {
     "mason-org/mason-lspconfig.nvim",
     opts = {
-      ensure_installed = { "lua_ls", "clangd", "rust_analyzer", "ocamllsp", "pyright" },
+      ensure_installed = { "ts_ls", "lua_ls", "clangd", "rust_analyzer", "ocamllsp", "pyright" },
     },
   },
 }

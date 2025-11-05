@@ -3,7 +3,8 @@ vim.lsp.enable({
  "pyright",
  "lua_ls",
  "rust_analyzer",
- "ocamllsp"
+ "ocamllsp",
+ "ts_ls"
 })
 
 --Apply Lua configs, for some reason just lsp.enable does 

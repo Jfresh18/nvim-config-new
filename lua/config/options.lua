@@ -1,9 +1,10 @@
+vim.opt.winborder = "rounded"
 vim.opt.number = true
 vim.opt.cursorline = true
 vim.opt.relativenumber = true
 vim.opt.shiftwidth = 4
 vim.opt.termguicolors = true
-vim.api.nvim_set_option("clipboard","unnamed")
+vim.opt.clipboard = "unnamed"
 vim.diagnostic.config({
     signs = {
 	text = {

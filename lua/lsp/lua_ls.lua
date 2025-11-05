@@ -8,9 +8,9 @@ return {
 		version = "LuaJIT",
 	    },
 	    signatureHelp = { enabled = true },
-	    diagnostics = {
-		globals = { "vim" },
-	    },
+	    workspace = {
+		library = vim.api.nvim_get_runtime_file("", true),
+	    }
 	},
     },
 }

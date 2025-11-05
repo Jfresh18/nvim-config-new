@@ -1,4 +1,4 @@
-local languages = { "c", "cpp", "rust", "lua", "python", "ocaml" }
+local languages = { "c", "cpp", "rust", "lua", "python", "ocaml", "typescript" ,"cmake", "make" }
 return {
 {
 	'nvim-treesitter/nvim-treesitter',

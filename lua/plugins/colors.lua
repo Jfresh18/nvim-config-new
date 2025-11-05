@@ -2,8 +2,8 @@ local function set_transparent()
     for _, group in ipairs({
         "Normal",
         "NormalNC",
-        "NormalFloat",
-        "FloatBorder",
+--        "NormalFloat",
+--        "FloatBorder",
         "SignColumn",
         "LineNr",
         "CursorLineNr",
@@ -18,11 +18,20 @@ end
 
 return {
     {
-	"rebelot/kanagawa.nvim",
-	priority = 1000,
-	config = function() 
-	    vim.cmd("colorscheme kanagawa-wave")
-	    set_transparent()
-	end
+        'maxmx03/fluoromachine.nvim',
+        lazy = false,
+        priority = 1000,
+        config = function ()
+         local fm = require 'fluoromachine'
+
+         fm.setup {
+            glow = false,
+            theme = 'fluoromachine',
+            transparent = true,
+         }
+
+         vim.cmd.colorscheme 'fluoromachine'
+         set_transparent()
+        end
     }
 }

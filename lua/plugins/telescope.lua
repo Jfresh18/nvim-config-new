@@ -1,6 +1,8 @@
 local function setBG()
-    vim.api.nvim_set_hl(0, 'TelescopeNormal', { bg='#1f2335' })
-    vim.api.nvim_set_hl(0, 'TelescopeBorder', { bg='#1f2335', fg='#5a6c8c' })
+    vim.api.nvim_set_hl(0, 'TelescopeNormal', { bg='#1c1830' })
+    vim.api.nvim_set_hl(0, 'TelescopeBorder', { bg='#1c1830', fg='#8e44ad' })
+    --other fg = #5a6c8c
+    --other bg = #1f2335
 end
 return {
     {
